@@ -1,0 +1,19 @@
+###
+GET http://localhost:8000/products
+
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name": "Curso do Zero a Programador",
+    "price": 959.59
+}
+###
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+    "name": "Consultoria de Engenharia de Software",
+    "price": 1459.59
+}
